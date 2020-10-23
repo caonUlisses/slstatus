@@ -65,6 +65,7 @@ static const struct arg args[] = {
 	/* function format          argument */
     { netspeed_rx, "« %s", "wlp3s0" },
     { netspeed_tx, "» %s", "wlp3s0" },
+    { temp, "TEMP: %s°C", "/sys/class/thermal/thermal_zone0/temp" },
     { battery_perc, "BAT: %s%% |", "BAT0" },
     { cpu_perc, "CPU: %s%% |", NULL },
     { ram_perc, "RAM: %s%% |", NULL },
